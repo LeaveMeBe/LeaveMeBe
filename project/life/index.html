@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>人生时光机 - Life Time Machine</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!--[if IE 6]>
+    <script src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script>
+        /*png透明图片IE6解决方案*/
+        try{
+            DD_belatedPNG && DD_belatedPNG.fix('.slogan, .shan, .yuhangyuan, .huojian, .sky-bg, .sky-bg2, .mummy_1, .child_1, .child_2, .ball_1, .man_1, .city_1, .city_2, .wife_1, .husband_1, .jiaotang_1, .father_1, .child_3, .mummy_2, .family_ma, .family_ba, .child_4, .shanlu_1, .yixiang_1, .snow_1, .tree_1, .start_btn');
+        }catch(e){}
+    </script>
+    <![endif]-->
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/audio.min.js"></script>
+	<script type="text/javascript" src="js/ltm.js"></script>
+	<script type="text/javascript">
+		//对于不支持 HTML5 的浏览器采用此方案播放（因为 audio.js 在 Firefox 下会出现重复播放，因此直接禁止其在所有 HTML5 浏览器下的运行）。
+		if (typeof(Worker) == "undefined") {
+			audiojs.events.ready(function() {
+				audiojs.createAll();
+			});
+		}
+	</script>
+</head>
+<body scroll="no">
+    <div class="audiodiv">
+    	<audio src="mp3/music.mp3" preload="auto" autoplay loop></audio>
+    </div>
+	<div class="act_wrapper">
+        <div class="act_content">
+            <!-- 第三屏 场景 -->
+            <div class="act_bg1">
+                <div class="act_panel">
+        			<div class="act_panel_frame">
+ 	        			<div id="banner" class="banner">
+	        				<div id="animation">
+	        					<ul id="pic_list" class="pic_list">	        						
+	        						<li class="item0">
+					                    <div class="superdiv">
+					        				<p>
+					        				    <span id="sentence_1">时光如流水般划过指隙，</span><br />
+					        				    <span id="sentence_2">我们往往忽略了驻足的风景，</span><br />
+					        				    <span id="sentence_3">回忆的旅程却已慢慢开启……</span>
+					        				</p>
+					        			</div>
+					                </li>
+					                <li class="item1">
+			        					<div class="item1_pic child" id="pic_1">
+			        					    <span class="mummy_1"></span>
+			        					    <span class="child_1"></span>
+			        					</div>
+			        					<div class="item1_word child" id="word_1">
+			        						<p class="item_title">故事的开始</p>
+			        						<p>漫山红叶的秋天，</p>
+			        						<p>微风拂过屋脊，</p>
+			        						<p>呱呱坠地的襁褓婴儿，</p>
+			        						<p>你第一次触碰到这个未知的世界。</p>
+			        					</div>
+					                </li>
+					                <li class="item2">
+			        					<div class="superdiv">
+					        				<p>
+					        				    <span id="sentence_4">身边的世界万物变得越来越清晰，</span><br />
+					        				    <span id="sentence_5">幼小的身体似乎充满了无限的能量。</span>
+					        				</p>
+					        			</div>
+					                </li>
+					                <li class="item3">
+			        					<div class="item3_pic child" id="pic_3">
+			        					    <span class="child_2"></span>
+			        					    <span class="ball_1"></span>
+			        					</div>
+			        					<div class="item3_word child" id="word_3">
+			        						<p class="item_title">跨入校门</p>
+			        						<p>8 岁的玩童，</p>
+			        						<p>就那样无忧无虑着，</p>
+			        						<p>永远带着天使般笑容，</p>
+			        						<p>嬉戏打闹跑遍整个校园。</p>
+			        					</div>
+					                </li>
+					                <li class="item4">
+			        					<div class="superdiv">
+					        				<p>
+					        				    <span id="sentence_6">渐渐长大的不只是坚实的身体，</span><br />
+					        				    <span id="sentence_7">还有智慧充盈着的大脑和双手。</span>
+					        				</p>
+					        			</div>
+					                </li>
+					                <li class="item5">
+			        					<div class="item5_pic child" id="pic_5">
+			        					    <span class="man_1"></span>
+			        					    <span class="city_1"></span>
+			        					    <span class="city_2"></span>
+			        					</div>
+			        					<div class="item5_word child" id="word_5">
+			        						<p class="item_title">一生的事业</p>
+			        						<p>眼前的这段路，</p>
+			        						<p>已记不清往返多少遍，</p>
+			        						<p>路的两端，</p>
+			        						<p>连着工作的信念和父母的牵挂。</p>
+			        					</div>
+					                </li>
+					                <li class="item6">
+			        					<div class="superdiv">
+					        				<p>
+					        				    <span id="sentence_8">汗水的余热换来了生活的平实，</span><br />
+					        				    <span id="sentence_9">缘分的交织带来了婚姻的幸福。</span>
+					        				</p>
+					        			</div>
+					                </li>
+					                <li class="item7">
+			        					<div class="item7_pic child" id="pic_7">
+			        					    <span class="wife_1"></span>
+			        					    <span class="husband_1"></span>
+			        					    <span class="jiaotang_1"></span>
+			        					</div>
+			        					<div class="item7_word child" id="word_7">
+			        						<p class="item_title">缘定今生</p>
+			        						<p>你为我亮一盏明灯，</p>
+			        						<p>我为你做一件嫁衣，</p>
+			        						<p>遇见你，</p>
+			        						<p>是我今生最大的奇迹。</p>
+			        					</div>
+					                </li>
+					                <li class="item8">
+			        					<div class="item8_pic child" id="pic_8">
+			        					    <span class="father_1"></span>
+			        					    <span class="child_3"></span>
+			        					    <span class="mummy_2"></span>
+			        					</div>
+			        					<div class="item8_word child" id="word_8">
+			        						<p class="item_title">为人父母</p>
+			        						<p>孕育生命，</p>
+			        						<p>哺育儿女，</p>
+			        						<p>如此伟大而平凡的事，</p>
+			        						<p>只有自己亲历时才更懂得了父母。</p>
+			        					</div>
+					                </li>
+					                <li class="item9">
+			        					<div class="item9_pic child" id="pic_9">
+			        					    <span class="family_ma"></span>
+			        					    <span class="family_ba"></span>
+			        					</div>
+			        					<div class="item9_word child" id="word_9">
+			        						<p class="item_title">回家是福</p>
+			        						<p>奔波忙碌又一年，</p>
+			        						<p>听着窗外的鞭炮声，</p>
+			        						<p>望着身边的父母、妻儿、兄妹，</p>
+			        						<p>一起干一杯叫家的酒。</p>
+			        					</div>
+					                </li>
+					                <li class="item10">
+			        					<div class="item10_pic child" id="pic_10">
+			        					    <span class="child_4"></span>
+			        					    <span class="shanlu_1"></span>
+			        					</div>
+			        					<div class="item10_word child" id="word_10">
+			        						<p class="item_title">最大的理想</p>
+			        						<p>还记得儿时爬过的那十几里山路，</p>
+			        						<p>为了梦中的那所学校，</p>
+			        						<p>不惜拿出几乎毕生的积蓄，</p>
+			        						<p>孩子们流下了感激而清澈的泪水。</p>
+			        					</div>
+					                </li>
+					                <li class="item11">
+			        					<div class="item11_pic child" id="pic_11">
+			        					    <span class="yixiang_1"></span>
+			        					    <span class="snow_1"></span>
+			        					    <span class="tree_1"></span>
+			        					</div>
+			        					<div class="item11_word child" id="word_11">
+			        						<p class="item_title">从未离开</p>
+			        						<p>面带微笑的你，</p>
+			        						<p>心中却流淌着无数的不舍和回忆，</p>
+			        						<p>风儿又一次吹过，</p>
+			        						<p>不知为何那年的冬天格外漫长。</p>
+			        					</div>
+					                </li>
+					                <li class="item12">
+			        					<div class="superdiv">
+					        				<p class="p1">
+					        				    <span id="sentence_10">从没有人相信你真的已经离开，</span><br />
+					        				    <span id="sentence_11">午后一起散步的情景仿佛还在昨天。</span>					        				  
+					        				</p>
+					        				<p class="p2">
+					        				    <span id="sentence_12">旅程似乎到这就该结束，</span><br/>
+					        				    <span id="sentence_13">时光仿佛永远定格在转身的最后一瞬，</span><br/>
+					        				    <span id="sentence_14">真的如此么？</span><br/><br/>
+					        				      
+					        				    <span id="sentence_15">如果沙漠代表的是悲伤，</span><br/>
+					        				    <span id="sentence_16">你恰是无垠边际中的那片绿洲。</span><br/><br/>
+					        				</p>
+					        				<p class="p3">
+					        				    <span id="sentence_17">其实，</span><br/>
+					        				    <span id="sentence_18">如此平凡而又不平凡的你，</span><br/>
+					        				    <span id="sentence_19">从未离开。</span><br/><br/>
+ 
+					        				    <span id="sentence_20">看，</span><br/>
+					        				    <span id="sentence_21">门前那盏依然温暖的灯，</span><br/>
+					        				    <span id="sentence_22">便是你永恒的身影……</span>
+					        				</p>
+					        				<p class="p4">
+					        				    <span id="sentence_23">一段旅程的结束，</span><br/>
+					        				    <span id="sentence_24">其实，恰是另一段旅程的开始</span>
+					        				</p>
+					        			</div>
+					                </li>
+	        					</ul>
+	        				</div>
+	        			</div>
+        			</div>      			
+        		</div>
+        		<div class="sky-bg"></div>
+        		<div class="sky-bg2"></div>    		
+			</div>
+            <!-- 第二屏 过渡 -->
+			<div class="act_bg2">
+			    <div class="sky-bg"></div>
+			    <div class="sky-bg2"></div>
+			</div>
+			<!-- 第一屏 地面、虚拟人物、时光机（火箭）-->
+	        <div class="act_bg3">
+	            <div class="act_top">
+    	            <div class="act_container">
+    	                <span class="slogan"></span>
+    	                <span class="shan"></span>
+    	                <span class="yuhangyuan"></span>
+    	                <span class="huojian"></span>
+    	            </div>
+    	        </div>
+	            <div class="act_bottom">
+	                <a class="start_btn" href="javascript:void(0);" onclick="playMovie();"></a>
+	            </div>
+			</div>
+        </div>
+    </div>
+    <div class="ad_div"><span id="sentence_25">最后，想正式告诉各位兄弟姐妹<br /><br />我要离职了</span></div>
+	<div id="fullscreen_tip">建议按键盘<span> F11 </span>全屏观看</div>
+</body>
+</html>
