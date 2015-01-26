@@ -1,0 +1,31 @@
+@charset "UTF-8";
+html,body {width:100%; height:100%;}
+body,div,a,span,image,table,tbody,tr,td {margin: 0; padding: 0; border: 0; font-family: Microsoft Yahei, tahoma, arial, sans-serif;}
+body {background-color: #FFFFFF;}
+input,select,textarea {font-family: Microsoft Yahei, tahoma, arial, sans-serif; margin: 0;}
+.wrapper {margin: 0; width: 100%; min-width: 1000px; position: relative; height: auto; min-height: 100%;}
+.header {background-color: #FFFFFF; height: 80px;}
+.header .banner {width: 1000px; margin: 0 auto; height: 80px;}
+.header .banner .banner_left {width: 130px; height: 80px; float: left; text-decoration: none; cursor: pointer;}
+.header .banner .banner_left .logo {width: 50px; height: 50px; float: left; margin: 15px 0;}
+.header .banner .banner_left .brand {width: 80px; height: 80px; line-height: 80px; font-size: 18px; float: left; margin: 0; text-align: center; color: #656d78; font-weight: bold;}
+.header .banner .banner_center {width: 480px; height: 80px; margin: 0 110px; float: left;}
+.header .banner .banner_center .tab {width: 96px; height: 80px; text-align: center; text-decoration: none; color: #727272; line-height: 80px; margin: 0; float: left; font-size: 16px;}
+.header .banner .banner_center .tab:hover {color: #00bafe;}
+.header .banner .banner_right {width: 170px; height: 80px; font-size: 14px; float: left;}
+.header .banner .banner_right a.login {width: 40px; text-decoration: none; height: 16px; line-height: 16px; display: inline-block; color: #727272; margin: 32px 0; text-align: center; border-right: dotted 1px #727272; padding-right: 3px;}
+.header .banner .banner_right a.login:hover {color: #00bafe;}
+.header .banner .banner_right a.register {width: 40px; text-decoration: none; height: 16px; line-height: 16px; display: inline-block; color: #727272; margin: 32px 0; text-align: center; padding-right: 3px;}
+.header .banner .banner_right a.register:hover {color: #00bafe;}
+.header .banner .banner_right .contribute {width: 58px; height: 28px; border: solid 1px #ffa200; border-radius: 14px; margin: 25px 0; text-decoration: none; display: inline-block; text-align: center; line-height: 28px; color: #ffa200;}
+.header .banner .banner_right .contribute:hover {color: #ff7200; border-color: #ff7200;}
+
+.footer {background-color: #434a54; height: 130px; position: absolute; width: 100%; min-width: 1000px; bottom: 0; left: 0;}
+.footer .container {width: 1000px; height: 130px; margin: 0 auto;}
+.footer .container .block {width: 500px; height: 80px; float: left;}
+.footer .container .block .link {width: 500px; height: 20px; font-size: 14px; color: #aab2bd; margin-top: 25px; font-weight: bold;}
+.footer .container .block .link_list {width: 500px; height: 20px; font-size: 14px; margin-top: 15px;}
+.footer .container .block .link_list a {width: auto; display: block; padding: 0 17px; border-left: dashed 1px #aab2bd; text-decoration: none; color: #aab2bd; float: left;}
+.footer .container .block .link_list a.left {border: 0; padding-left: 0;}
+.footer .container .block .link_list a.right {padding-right: 0;}
+.footer .container .copyright {width: 100%; text-align: center; color: #2e3339; font-size: 12px; height: 50px; float: left; line-height: 50px;}
