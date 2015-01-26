@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .content {width: 100%; min-width: 1000px; margin: 0 auto; padding-bottom: 130px;}
-.content .broadcast {height: 528px;}
-.content .broadcast .slides {height: 528px; display: none;}
+.content .broadcast {height: auto;}
+.content .broadcast .slides {height: auto; display: none;}
 .content .broadcast .slides a.slide_img {height: 500px; overflow: hidden; background-size: cover; background-position: center center; margin-bottom: 50px; position: relative; display: block;}
 .content .broadcast .slides .slidesjs-pagination {margin: 0 auto; padding: 0; width: 800px; height: 28px; list-style: none; text-align: center;}
 .content .broadcast .slides .slidesjs-pagination li {display: inline-block; width: 12px; height: 12px; margin: 15px 4px 1px 4px;}
