@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.content {width: 100%; min-width: 1000px; margin: 0 auto; padding-bottom: 130px; border-top: solid 1px #f3f5f7;}
+.content .hot_act {width: 1000px; margin: 30px auto 0 auto;}
+.content .hot_act .title_line {height: 30px;}
+.content .hot_act .title_line .title {background: url(../images/h-spr.png) 0 0; width: 85px; height: 22px; float: left; margin: 4px 12px 4px 0;}
+.content .hot_act .title_line span {height: 16px; line-height: 16px; color: #c1c7cf; display: block; font-size: 16px; margin: 9px 0 5px 0; float: left; border-left: dotted 1px #c1c7cf; padding-left: 12px;}
+
+.content .hot_act .list {width: 1000px; margin: 20px 0 0 0;}
+.content .hot_act .list ul {width: 1000px; margin: 0; padding: 0; list-style: none;}
+.content .hot_act .list ul li {width: 1000px;}
+.content .hot_act .list ul li div.detail {width: 1000px; height: 267px; margin: 0 0 30px 0;}
+.content .hot_act .list ul li div.detail a.image {width: 482px; height: 267px; display: block; float: left;}
+.content .hot_act .list ul li div.detail a.image img {width: 482px; height: 267px; display: block; float: left;}
+.content .hot_act .list ul li div.detail a.image div.label {width: 82px; height: 82px; display: inline-block; background: url(../images/top.png); position: relative; bottom: 267px; left: 20px;}
+.content .hot_act .list ul li div.detail a.image div.label .kind {font-size: 14px; color: #f3f5f7; margin: 15px 0 0 0; text-align: center;}
+.content .hot_act .list ul li div.detail a.image div.label .issue {font-size: 14px; color: #f3f5f7; margin: 0; text-align: center;}
+.content .hot_act .list ul li div.detail a.image div.label .issue span.num {font-size: 28px;}
+.content .hot_act .list ul li div.detail a.image div.label .issue span.unit {margin-left: -5px;}
+
+.content .hot_act .list ul li div.detail div.main {width: 518px; float: left; height: 267px; background: #f8f8f8;}
+.content .hot_act .list ul li div.detail div.main .all {width: 450px; height: 267px; margin: 0 34px; display: inline-block;}
+.content .hot_act .list ul li div.detail div.main .all a.title {display: block; height: 30px; text-decoration: none; margin: 23px 0 0 0; color: #444e54; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.content .hot_act .list ul li div.detail div.main .all a.title span {display: inline-block; height: 30px; line-height: 30px; font-size: 20px; max-width: 390px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.content .hot_act .list ul li div.detail div.main .all a.title span.city {font-weight: bold;}
+.content .hot_act .list ul li div.detail div.main .all .text {width: 450px; height: 84px; line-height: 28px; font-size: 14px; color: #656d78; margin: 20px 0 18px 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;}
+.content .hot_act .list ul li div.detail div.main .all .bottom {width: 450px; display: inline-block; height: 92px;}
+.content .hot_act .list ul li div.detail div.main .all .bottom .left {width: 320px; float: left; height: 92px;}
+.content .hot_act .list ul li div.detail div.main .all .bottom .left .address {width: 320px;}
+.content .hot_act .list ul li div.detail div.main .all .bottom .left .address span {font-size: 14px; color: #656d78; display: inline-block;}
+.content .hot_act .list ul li div.detail div.main .all .bottom .left .author {width: 320px; height: 32px; margin-top: 21px;}
+.content .hot_act .list ul li div.detail div.main .all .bottom .left .author img {width: 32px; height: 32px; border-radius: 8px; float: left;}
+.content .hot_act .list ul li div.detail div.main .all .bottom .left .author span {width: auto; height: 32px; line-height: 32px; font-size: 14px; color: #c1c7cf; display: block; float: left; margin-left: 10px;}
+.content .hot_act .list ul li div.detail div.main .all .bottom .left .author span.date {margin: 0 100px 0 0; float: right;}
+
+.content .hot_act .list ul li div.detail div.main .all .bottom .right {width: 130px; float: left; height: 92px;}
+.content .hot_act .list ul li div.detail div.main .all .bottom .right a {width: 128px; height: 40px; text-align: center; font-size: 18px; line-height: 40px; border: solid 1px #00bafe; border-radius: 7px; display: block; text-decoration: none; color: #00bafe; margin: 25px 0;}
+.content .hot_act .list ul li div.detail div.main .all .bottom .right a.finished {color: #999999; border-color: #999999;}

@@ -13,7 +13,7 @@
 .content .hot_act {width: 1000px; margin: 30px auto 0 auto;}
 .content .hot_act .title_line {height: 30px;}
 .content .hot_act .title_line .title {background: url(../images/h-spr.png) 0 0; width: 85px; height: 22px; float: left; margin: 4px 12px 4px 0;}
-.content .hot_act .title_line span {height: 16px; line-height: 16px; color: #c1c7cf; display: block; font-size: 16px; margin: 9px 0 5px 0; float: left; border-left: dotted 1px #c1c7cf; padding-left: 12px;}
+.content .hot_act .title_line span {height: 16px; line-height: 16px; color: #c1c7cf; display: block; font-size: 14px; margin: 9px 0 5px 0; float: left; border-left: dotted 1px #c1c7cf; padding-left: 12px;}
 .content .hot_act .title_line .more {background: url(../images/spr.png) 0 0; width: 70px; height: 30px; float: right;}
 .content .hot_act .title_line .more:hover {background-position: -74px 0;}
 .content .hot_act .act_block {width: 1000px; height: 270px; margin: 22px 0 0 0;}
@@ -54,7 +54,7 @@
 .content .founder_say {width: 1000px; margin: 45px auto 0 auto;}
 .content .founder_say .title_line {height: 30px;}
 .content .founder_say .title_line .title {background: url(../images/h-spr.png) 0 -23px; width: 85px; height: 22px; float: left; margin: 4px 12px 4px 0;}
-.content .founder_say .title_line span {height: 16px; line-height: 16px; color: #c1c7cf; display: block; font-size: 16px; margin: 9px 0 5px 0; float: left; border-left: dotted 1px #c1c7cf; padding-left: 12px;}
+.content .founder_say .title_line span {height: 16px; line-height: 16px; color: #c1c7cf; display: block; font-size: 14px; margin: 9px 0 5px 0; float: left; border-left: dotted 1px #c1c7cf; padding-left: 12px;}
 .content .founder_say .title_line .more {background: url(../images/spr.png) 0 0; width: 70px; height: 30px; float: right;}
 .content .founder_say .title_line .more:hover {background-position: -74px 0;}
 
@@ -87,7 +87,7 @@
 .content .geek_sound {width: 1000px; margin: 45px auto 0 auto;}
 .content .geek_sound .title_line {height: 30px;}
 .content .geek_sound .title_line .title {background: url(../images/h-spr.png) 0 -46px; width: 85px; height: 22px; float: left; margin: 4px 12px 4px 0;}
-.content .geek_sound .title_line span {height: 16px; line-height: 16px; color: #c1c7cf; display: block; font-size: 16px; margin: 9px 0 5px 0; float: left; border-left: dotted 1px #c1c7cf; padding-left: 12px;}
+.content .geek_sound .title_line span {height: 16px; line-height: 16px; color: #c1c7cf; display: block; font-size: 14px; margin: 9px 0 5px 0; float: left; border-left: dotted 1px #c1c7cf; padding-left: 12px;}
 .content .geek_sound .title_line .more {background: url(../images/spr.png) 0 0; width: 70px; height: 30px; float: right;}
 .content .geek_sound .title_line .more:hover {background-position: -74px 0;}
 
@@ -96,6 +96,7 @@
 .content .geek_sound .list ul li {width: 1000px; border-bottom: dashed 1px #ccd1d9;}
 .content .geek_sound .list ul li div.detail {width: 1000px; height: 180px; margin: 20px 0;}
 .content .geek_sound .list ul li div.detail a.image {width: 250px; height: 180px; display: block; float: left;}
+.content .geek_sound .list ul li div.detail a.image img {width: 250px; height: 180px; display: block; float: left;}
 .content .geek_sound .list ul li div.detail div.main {margin-left: 30px; width: 720px; float: left; height: 180px;}
 .content .geek_sound .list ul li div.detail div.main .top {width: 720px; height: 30px;}
 .content .geek_sound .list ul li div.detail div.main .top a.title {width: auto; height: 30px; line-height: 30px; font-size: 22px; color: #434a54; text-decoration: none; display: block; float: left;}
@@ -107,7 +108,7 @@
 .content .geek_sound .list ul li div.detail div.main .top div.label span.type_color_4 {color: #48cfad;}
 .content .geek_sound .list ul li div.detail div.main .top div.label span.type_color_5 {color: #4fc1e9;}
 .content .geek_sound .list ul li div.detail div.main .top div.label span.date {border-left: solid 1px #e6e9ed; color: #c1c7cf; padding-left: 10px;}
-.content .geek_sound .list ul li div.detail div.main .text {width: 720px; height: 58px; line-height: 28px; font-size: 16px; color: #656d78; margin: 30px 0;}
+.content .geek_sound .list ul li div.detail div.main .text {width: 720px; height: 58px; line-height: 28px; font-size: 16px; color: #656d78; margin: 30px 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
 .content .geek_sound .list ul li div.detail div.main .author {width: 720px; height: 32px;}
 .content .geek_sound .list ul li div.detail div.main .author img {width: 32px; height: 32px; border-radius: 8px; float: left;}
 .content .geek_sound .list ul li div.detail div.main .author span {width: auto; height: 32px; line-height: 32px; font-size: 14px; color: #c1c7cf; display: block; float: left; margin-left: 10px;}
