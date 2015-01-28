@@ -35,3 +35,6 @@
 .content .hot_act .list ul li div.detail div.main .all .bottom .right {width: 130px; float: left; height: 92px;}
 .content .hot_act .list ul li div.detail div.main .all .bottom .right a {width: 128px; height: 40px; text-align: center; font-size: 18px; line-height: 40px; border: solid 1px #00bafe; border-radius: 7px; display: block; text-decoration: none; color: #00bafe; margin: 25px 0;}
 .content .hot_act .list ul li div.detail div.main .all .bottom .right a.finished {color: #999999; border-color: #999999;}
+
+.content .hot_act .list .page_holder {width: 1000px; height: 30px; margin-bottom: 70px; padding: 0;}
+.content .hot_act .list .page_holder .pagination {float: right;}

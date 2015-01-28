@@ -10,16 +10,16 @@
 
 .content .main .contract {margin: 35px auto 75px auto;}
 .content .main .contract .title {font-size: 24px; color: #333333; text-align: center; margin-bottom: 30px;}
-.content .main .contract .text {height: 400px;}
-.content .main .contract .text .join {height: 400px; width: 498px; float: left;}
+.content .main .contract .text {height: 409px;}
+.content .main .contract .text .join {height: 409px; width: 495px; float: left;}
 .content .main .contract .text .join span {display: inline-block;}
 .content .main .contract .text .join span.intro {height: 58px; width: 470px; font-size: 18px; color: #333333; line-height: 58px; border-bottom: solid 1px #e5e5e5; margin-bottom: 13px;}
 .content .main .contract .text .join span.sep {margin-top: 25px;}
 .content .main .contract .text .join span.item {line-height: 30px; width: auto; font-size: 14px; color: #7f7f7f; display: block;}
 .content .main .contract .text .join span.qq {color: #00bafe;}
 
-.content .main .contract .text .map {height: 400px; width: 502px; float: left;}
-.content .main .contract .text .map img {height: 397px; width: 502px;}
+.content .main .contract .text .map {height: 409px; width: 505px; float: left;}
+.content .main .contract .text .map img {height: 409px; width: 505px;}
 
 
 
